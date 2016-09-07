@@ -99,11 +99,15 @@ class Checkout extends CI_Controller
 		$query = $this->db->get('order_particulars');
 		$delete = $query->result();
 		foreach ($delete as $key => $value) {
-			$this->session->unset_userdata($value->order_item);
+			$this->session->unset_userdata('design_'.$value->order_item);
 			$this->db->where('user_id',$value->customer_id);
 			$this->db->where('image_id',$value->order_item);
 			$this->db->where('model_id',$value->order_model);
 			$this->db->delete('cart');
+		}
+		$num = $this->db->count_all_results('cart');
+		if ($num === 0) {
+			$this->db->truncate('cart');
 		}
 	}
 	public function newshipaddress()
