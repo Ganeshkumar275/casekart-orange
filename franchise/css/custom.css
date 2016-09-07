@@ -1,0 +1,15 @@
+/*
+
+ * Title:   Custom Style File
+
+ * Author:  http://themeforest.net/user/soaptheme 
+
+ */
+
+.icon-box.style-side-2.animated.box.fadeInUp > img {
+    float: left;
+    width: 42px;
+}
+.icon-box.style-side-1.box.animated.fadeInUp > img {
+    float: left;
+}

@@ -1,0 +1,35 @@
+/* CSS3 STYLE GENERIC */
+/*.view {
+   width: 300px;
+   height: 200px;
+   margin: 10px;
+   float: left;
+   border: 5px solid #fff;
+   overflow: hidden;
+   position: relative;
+   text-align: center;
+   box-shadow: 0px 0px 5px #aaa;
+   cursor: default;
+   }*/
+   .view .mask, .view .content-hover {
+      width: 220px;
+      height: 200px;
+      position: absolute;
+      overflow: hidden;
+      top: 0;
+      left: 0;
+   }
+   .view .design-image-hover{
+      display: block;
+      position: relative;
+   }
+   .view a.info-text {
+     color: #fff;
+     display: inline-block;
+     font-size: 20px;    
+     height: 25px;
+     left: 240px;
+     position: absolute;
+     text-decoration: none;
+     width: 109px;
+  }

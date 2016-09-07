@@ -1,0 +1,8 @@
+[06-Sep-2016 12:30:35 UTC] PHP Fatal error:  Call to a member function get_user() on a non-object in /home/casekart/public_html/application/modules/admin/controllers/Login.php on line 41
+[06-Sep-2016 12:30:55 UTC] PHP Fatal error:  Call to a member function get_user() on a non-object in /home/casekart/public_html/application/modules/admin/controllers/Login.php on line 41
+[06-Sep-2016 12:31:05 UTC] PHP Fatal error:  Call to a member function get_user() on a non-object in /home/casekart/public_html/application/modules/admin/controllers/Login.php on line 41
+[07-Sep-2016 06:45:35 UTC] PHP Parse error:  syntax error, unexpected 'text' (T_STRING), expecting ',' or ';' in /home/casekart/public_html/application/modules/admin/views/order_view.php on line 588
+[07-Sep-2016 06:45:36 UTC] PHP Parse error:  syntax error, unexpected 'text' (T_STRING), expecting ',' or ';' in /home/casekart/public_html/application/modules/admin/views/order_view.php on line 588
+[07-Sep-2016 06:46:20 UTC] PHP Parse error:  syntax error, unexpected 'text' (T_STRING), expecting ',' or ';' in /home/casekart/public_html/application/modules/admin/views/order_view.php on line 588
+[07-Sep-2016 06:46:57 UTC] PHP Parse error:  syntax error, unexpected '"text-align:center;"' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/casekart/public_html/application/modules/admin/views/order_view.php on line 588
+[07-Sep-2016 06:55:20 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/casekart/public_html/application/modules/admin/views/order_view.php on line 636

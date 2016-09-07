@@ -1,0 +1,27 @@
+.alert-box{
+  width: 100%;
+  background-color: #eceeef;
+  border-radius: 0.25rem;
+  margin: 5px;
+  padding: 5px;
+  height: auto;
+  float: left;
+}
+
+ul.alert-button{
+  float: right;
+  list-style: none;
+  margin: 0px;
+}
+li.warning{
+  float: right;
+  margin: 0 20px;
+}
+li.input{
+  float: right;
+  margin: 0 20px;
+}
+.center-container {
+  max-width: 700px;
+  margin: 70px auto; 
+}
